@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Alph';
+    src: url('res/alph.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+a {
+    font-family: 'Alph';
+}
+
+.container {
+    display: block;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border: 2px solid white;
+    height: 96vh;
+    background-color: #2b2b2b;
+    border-radius: 16px;
+}
+
+.minicontainer {
+    display: flex;
+    align-items: center;
+}
+
+#icon {
+    border-radius: 35%;
+    width: 7vw;
+    height: 7vw;
+}
+
+.title {
+    margin-left: 2.5vw;
+    font-size: 50px;
+    color: #545454
+}
+
+.anotherminicontainer {
+    display: block;
+    text-align: center;
+}
+.anotherminicontainer a {
+    color: #292929;
+    -webkit-text-stroke: 0.75px #545454;
+    font-size: 35px;
+}
+
