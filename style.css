@@ -7,6 +7,7 @@
 
 * {
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -46,6 +47,7 @@ a {
     color: #545454
 }
 
+/*
 .logocontainer {
     display: flex;
     justify-content: center;
@@ -53,11 +55,8 @@ a {
     gap: 2.5vw;
     flex-wrap: wrap;
 }
+*/
 
-.logocontainer img {
-    width: 10vw;
-    height: 10vw;
-}
 
 #Tails {
     border-radius: 50%;
@@ -68,5 +67,26 @@ a {
 }
 
 .Logo:hover {
-    transform: scale(1.35);
+    transform: scale(1.15);
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    gap: 1.25vw;
+    flex-wrap: wrap;
+    margin-bottom: 12vw;
+}
+
+.logocontainer img {
+    width: 10vw;
+    height: 10vw;
+}
+
+#desc {
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+    color: #bcbcbc;
 }
