@@ -51,11 +51,22 @@ a {
     justify-content: center;
     margin-top: 3vw;
     gap: 2.5vw;
+    flex-wrap: wrap;
 }
 
 .logocontainer img {
     width: 10vw;
     height: 10vw;
+}
+
+#Tails {
     border-radius: 50%;
 }
 
+.Logo {
+    transition: transform .3s;
+}
+
+.Logo:hover {
+    transform: scale(1.35);
+}
