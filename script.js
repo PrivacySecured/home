@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const container = document.getElementById("c");
 
     const colors = [
-        "#663399", "#e95d0d"
+        "#663399", "#e95d0d", "#2a6df3", "#2a69b1", "#33b293"
     ];
     
     let colorIndex = 0;

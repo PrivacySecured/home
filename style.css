@@ -23,13 +23,13 @@ a {
     margin-right: 2vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    border: 2px solid white;
+    border: 0px solid black;
     height: 96vh;
     background-color: #2b2b2b;
     border-radius: 16px;
 }
 
-.minicontainer {
+.titlecontainer {
     display: flex;
     align-items: center;
 }
